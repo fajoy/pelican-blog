@@ -40,3 +40,10 @@ output
 srv.pid
 pelican.pid
 publishconf.py
+
+
+#pelican themes rep
+pelican-themes
+
+#swp
+*.swp
