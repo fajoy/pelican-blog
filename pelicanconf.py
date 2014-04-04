@@ -34,7 +34,7 @@ RELATIVE_URLS = True
 
 import os
 THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                    'pelican-themes', 'pelican-bootstrap3')
+                                    'pelican-themes', 'bootstrap')
 
 DEFAULT_DATE = "fs"
 DEFAULT_DATE_FORMAT ="%Y年%m月%d日"
@@ -44,3 +44,8 @@ USE_FOLDER_AS_CATEGORY = False
 DEFAULT_CATEGORY = "筆記"
 
 DISQUS_SITENAME = "fajoy"
+GOOGLE_ANALYTICS = "UA-11470637"
+
+PDF_PROCESSOR = True
+
+
