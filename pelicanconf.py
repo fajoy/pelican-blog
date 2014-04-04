@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+
+#ref http://docs.getpelican.com/en/3.3.0/settings.html
 AUTHOR = u'fajoy'
 SITENAME = u'Fajoy的筆記'
 SITEURL = ''
@@ -37,3 +39,8 @@ THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)),
 DEFAULT_DATE = "fs"
 DEFAULT_DATE_FORMAT ="%Y年%m月%d日"
 LOCALE = ("zh_TW.UTF-8")
+
+USE_FOLDER_AS_CATEGORY = False
+DEFAULT_CATEGORY = "筆記"
+
+DISQUS_SITENAME = "fajoy"
