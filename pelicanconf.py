@@ -36,4 +36,4 @@ THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)),
 
 DEFAULT_DATE = "fs"
 DEFAULT_DATE_FORMAT ="%Y年%m月%d日"
-LOCALE = ("zh_TW.UTF8")
+LOCALE = ("zh_TW.UTF-8")

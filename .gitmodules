@@ -1,0 +1,6 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/fajoy/fajoy.github.io.git
+[submodule "pelican-themes"]
+	path = pelican-themes
+	url = https://github.com/fajoy/pelican-themes
