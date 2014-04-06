@@ -34,7 +34,7 @@ RELATIVE_URLS = True
 
 import os
 THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                    'pelican-themes', 'bootstrap2')
+                                    'pelican-themes', 'fajoy-bootstrap2')
 
 DEFAULT_DATE = "fs"
 DEFAULT_DATE_FORMAT ="%Y年%m月%d日"
