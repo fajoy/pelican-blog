@@ -5,8 +5,27 @@ from __future__ import unicode_literals
 
 #ref http://docs.getpelican.com/en/3.3.0/settings.html
 AUTHOR = u'fajoy'
-SITENAME = u'Fajoy的筆記'
+AUTHOR_URL = u'author/{slug}.html'
+AUTHOR_SAVE_AS = 'author/{slug}.html'
+AUTHORS_URL = 'authors.html'
+AUTHORS_SAVE_AS = 'authors.html' 
+SITENAME = u'Fajoy的資訊筆記'
 SITEURL = ''
+
+STATIC_PATHS = ('img','js','css','html')
+PAGE_DIR = 'pages'
+PAGE_EXCLUDES = ()
+ARTICLE_DIR = ''
+ARTICLE_EXCLUDES = (PAGE_DIR,) + STATIC_PATHS
+
+
+
+
+
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives')
+
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']
+
 
 TIMEZONE = 'Asia/Taipei'
 
@@ -41,7 +60,7 @@ DEFAULT_DATE_FORMAT ="%Y年%m月%d日"
 LOCALE = ("zh_TW.UTF-8")
 
 USE_FOLDER_AS_CATEGORY = False
-DEFAULT_CATEGORY = "筆記"
+DEFAULT_CATEGORY = u"筆記"
 
 DISQUS_SITENAME = "fajoy"
 GOOGLE_ANALYTICS = "UA-11470637"
@@ -50,7 +69,6 @@ GOOGLE_ANALYTICS = "UA-11470637"
 PLUGIN_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                     'pelican-plugins')
 PLUGINS = ['pdf',]
-
 
 PDF_PROCESSOR = True
 PDF_GENERATOR = True
