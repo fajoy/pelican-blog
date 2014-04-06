@@ -54,3 +54,7 @@ PLUGINS = ['pdf',]
 
 PDF_PROCESSOR = True
 PDF_GENERATOR = True
+PDF_STYLE = 'chinese.style'
+PDF_STYLE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                    'win_fonts')
+

@@ -10,3 +10,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/fajoy/pelican-plugins.git
+[submodule "win_fonts"]
+	path = win_fonts
+	url = https://github.com/fajoy/win_fonts

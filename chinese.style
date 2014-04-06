@@ -1,0 +1,10 @@
+{
+ "embeddedFonts" : [["win_fonts/kaiu.ttf", "win_fonts/kaiu.ttf", "win_fonts/kaiu.ttf", "win_fonts/kaiu.ttf" ]],
+  "fontsAlias" : {
+    "stdFont": "win_fonts/kaiu",
+    "stdBold": "win_fonts/kaiu",
+    "stdItalic": "win_fonts/kaiu",
+    "stdBoldItalic": "win_fonts/kaiu",
+    "stdMono": "win_fonts/kaiu" 
+    }
+}
