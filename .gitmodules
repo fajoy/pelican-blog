@@ -13,3 +13,6 @@
 [submodule "win_fonts"]
 	path = win_fonts
 	url = https://github.com/fajoy/win_fonts
+[submodule "git-tools"]
+	path = git-tools
+	url = https://github.com/fajoy/git-tools
