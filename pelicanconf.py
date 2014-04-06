@@ -46,6 +46,11 @@ DEFAULT_CATEGORY = "筆記"
 DISQUS_SITENAME = "fajoy"
 GOOGLE_ANALYTICS = "UA-11470637"
 
+
+PLUGIN_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                    'pelican-plugins')
+PLUGINS = ['pdf',]
+
+
 PDF_PROCESSOR = True
-
-
+PDF_GENERATOR = True
